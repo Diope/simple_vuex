@@ -1,4 +1,5 @@
 # simple_vuex
+A dead simple use of Vuex for learning purposes.
 
 ## Project setup
 ```

@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <flavor-display />
+    <flavor-form />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FlavorDisplay from './components/FlavorDisplay.vue'
+import FlavorForm from './components/FlavorForm.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FlavorDisplay,
+    FlavorForm
   }
 }
 </script>
